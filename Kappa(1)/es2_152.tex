@@ -1,0 +1,68 @@
+\documentclass[11pt]{exam}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{epsfig}
+\usepackage{array}
+\addtolength{\evensidemargin}{-.5in}
+\addtolength{\oddsidemargin}{-.5in}
+\addtolength{\textwidth}{0.8in}
+\addtolength{\textheight}{0.8in}
+\addtolength{\topmargin}{-.1in}
+\newtheoremstyle{quest}{\topsep}{\topsep}{}{}{\bfseries}{}{ }{\thmname{#1}\thmnote{ #3}.}
+\theoremstyle{quest}
+\newtheorem*{definition}{Definition}
+\newtheorem*{theorem}{Theorem}
+\newtheorem*{question}{Question}
+\newtheorem*{exercise}{Exercise}
+\newtheorem*{challengeproblem}{Challenge Problem}
+\newcommand{\hw}{%%%%%%%%%%%%%%%%%%%%
+%% and which homework assignment is it? %%%%%%%%%
+%% put the correct number below              %%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{\vspace{-50pt}
+ \Huge \name
+\\
+\vspace{10pt}
+\huge Math 152 \thanks{Supported by NSF grant number 1317651 }\hfill Enrichment Session  \hw}
+\author{}
+\date{}
+\pagestyle{myheadings}
+% \markright{\name\hfill Homework \hw\qquad\hfill}
+\newcommand{\name}{%%%%%%%%%%%%%%%%%%
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ %% put your name here, so we know who to give credit to %%
+Name:    -------------------------------------------- }%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\Huge \name
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\C}{\mathbb{C}}
+\begin{document}
+\maketitle
+\begin{questions}
+\bracketedpoints
+\question[15] Evaluate. Show all reasoning.\\\\
+(a)$\displaystyle{\int_{0}^{1} \frac{dx}{(1+\sqrt{x})^5}}$ \\\\\\\\\\\\\\\\\\\\\\
+(b)$\displaystyle{\int_{3}^{8} x\sqrt{1+x}\, dx}$\\\\\\\\\\\\\\\\\\\\\\\\\\
+(c)$\displaystyle{\int \frac{dx}{x \ln x \ln (\ln x)}}$
+
+\newpage
+
+\question[3]  Let R be the region in the xy-plane bounded by the curves
+$$x = 1 - y^2\,\, \mbox{and} \,\,x = y^4- 1$$
+Set up, but do not evaluate, an integral in terms of a single variable that represents the area of R. Justify your answer by drawing a picture.
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\question[3]Set up two distinct integrals, each in terms of a single variable, representing the area of the region $R$ enclosed by the curves 
+ $y=\sqrt{x}$ and $y=x^{1/3}$  in the first quadrant. Justify your answer by drawing a picture.
+\newpage
+\question[3]Set up, but do not evaluate, an integral in terms of a single variable representing the area of the region bounded by the curves $y=5-x^2$ and $y=x^2+3x+3$. As justification, draw a picture.
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\question[3] Set up two distinct integrals, each in terms of a single variable, representing the area of the region $R$ enclosed by the curves 
+ $y=\sqrt{x}$ and $y=x^3$  in the first quadrant. Justify your answer by drawing a picture.
+\end{questions}
+\end{document}
